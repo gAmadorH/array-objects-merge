@@ -1,0 +1,36 @@
+{
+  "name": "array-objects-merge",
+  "version": "1.0.0",
+  "description": "Merge arrays of objects where object are the same based on your own defined key",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "tap test/test.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --ignore-path .gitignore . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gAmadorH/array-objects-merge.git"
+  },
+  "keywords": [
+    "merge",
+    "array",
+    "arrays",
+    "object",
+    "objects",
+    "own-key",
+    "defined-key"
+  ],
+  "author": "Gonzalo Amador Hernandez <gamadorh93gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gAmadorH/array-objects-merge/issues"
+  },
+  "homepage": "https://github.com/gAmadorH/array-objects-merge#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "tap": "^14.10.7"
+  }
+}
