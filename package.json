@@ -6,7 +6,8 @@
   "scripts": {
     "test": "tap",
     "lint": "eslint --ignore-path .gitignore .",
-    "lint:fix": "eslint --ignore-path .gitignore . --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "coveralls": "tap --cov --coverage-report=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/gAmadorH/array-objects-merge#readme",
   "devDependencies": {
+    "coveralls": "^3.0.11",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
