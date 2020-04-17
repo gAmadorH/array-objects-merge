@@ -4,7 +4,7 @@
   "description": "Merge arrays of objects where object are the same based on your own defined key",
   "main": "lib/index.js",
   "scripts": {
-    "test": "tap test/test.js",
+    "test": "tap",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "eslint --ignore-path .gitignore . --fix"
   },
