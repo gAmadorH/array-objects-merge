@@ -52,7 +52,7 @@ const expected = [
 tap.test('simple merge by id property', (childTest) => {
   childTest.plan(1);
 
-  const merge = lib({ id: 1 }, source1, source2, source3);
+  const merge = lib({ key: 'id' }, source1, source2, source3);
 
   childTest.deepEqual(merge, expected);
 });
