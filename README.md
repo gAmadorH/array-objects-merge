@@ -1,6 +1,6 @@
 # array-objects-merge
 
-![npm](https://img.shields.io/npm/v/array-objects-merge?color=orange)
+![npm version](https://img.shields.io/npm/v/array-objects-merge)
 [![build state](https://travis-ci.com/gAmadorH/array-objects-merge.svg?branch=master)](https://travis-ci.com/gAmadorH/array-objects-merge)
 [![vulnerabilities](https://snyk.io/test/github/gAmadorH/array-objects-merge/badge.svg?targetFile=package.json)](https://snyk.io/test/github/gAmadorH/array-objects-merge?targetFile=package.json)
 [![coverage status](https://coveralls.io/repos/github/gAmadorH/array-objects-merge/badge.svg)](https://coveralls.io/github/gAmadorH/array-objects-merge)
@@ -100,7 +100,6 @@ output:
   },
 ]
 ```
-
 
 ## License
 
